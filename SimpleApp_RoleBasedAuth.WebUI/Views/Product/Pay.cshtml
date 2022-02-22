@@ -1,0 +1,58 @@
+﻿@using Microsoft.AspNetCore.Http.Features.Authentication
+@model Order
+@{
+    ViewData["Title"] = "Pay To Your Shopping Card";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <h4>@ViewData["Title"] - @User.Identity.Name</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-8">
+            <form asp-action="Pay" method="post">
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <div class="col-lg-3">
+                        <label class="control-label" for="inputSuccess">Payment Options</label>
+                    </div>
+                    <div class="col-lg-9">
+                        <select class="form-control m-bot15" name="PaymentId">
+                            <option>-- Select One Payment --</option>
+                            @foreach (var item in ViewBag.Payments)
+                            {
+                                <option value="@item.Id">@item.Name</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NameSurname" class="control-label"></label>
+                    <input asp-for="NameSurname" class="form-control" />
+                    <span asp-validation-for="NameSurname" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EmailAddress" class="control-label"></label>
+                    <input type="email" asp-for="EmailAddress" class="form-control" />
+                    <span asp-validation-for="EmailAddress" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <textarea asp-for="Address" class="form-control"></textarea>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Pay for Shopping" class="btn btn-primary" />
+                    <input type="hidden" asp-for="ProductId" />
+                    <input type="hidden" asp-for="IdentityName" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

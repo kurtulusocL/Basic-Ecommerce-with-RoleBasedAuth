@@ -1,0 +1,47 @@
+﻿@model ApplicationUser
+@{
+    TempData["Title"] = "Here your profile " + User.Identity.Name;
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>@TempData["Title"]</h2>
+<hr />
+<div class="container">
+    <div>
+        <dl class="row">
+            <dt class="col-sm-2">Email Address</dt>
+            <dd class="col-sm-10">@Model.Email</dd>
+            <dt class="col-sm-2">Username</dt>
+            <dd class="col-sm-10">@Model.UserName</dd>
+            <dt class="col-sm-2">Phone Number</dt>
+            @if (Model.PhoneNumber != null)
+            {
+                <dd class="col-sm-10">@Model.PhoneNumber</dd>
+            }
+            else
+            {
+                <dd class="col-sm-10">No Data</dd>
+            }
+            <dt class="col-sm-2">Email Confirmed</dt>
+            @if (Model.EmailConfirmed == true)
+            {
+                <dd class="col-sm-10">Email Confirmed</dd>
+            }
+            else
+            {
+                <dd class="col-sm-10">Email Not Confirmed</dd>
+            }
+            <dt class="col-sm-2">Phone Number Confirmed</dt>
+            @if (Model.PhoneNumberConfirmed == true)
+            {
+                <dd class="col-sm-10">Phone Number Confirmed</dd>
+            }
+            else
+            {
+                <dd class="col-sm-10">Phone Number Not Confirmed</dd>
+            }
+            <dt class="col-sm-2">Register Date</dt>
+            <dd class="col-sm-10">@Model.CreatedDate.ToLongDateString()</dd>
+        </dl>
+    </div>
+</div>

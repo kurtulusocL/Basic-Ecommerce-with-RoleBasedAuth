@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Order>
+@{
+    ViewData["Title"] = "Here Your Order List";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="container">
+    <div>
+        <br />
+        <h2>Hi @User.Identity.Name @ViewData["Title"]</h2>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Ordered Name Surname</th>
+                        <th>Delivery Address</th>
+                        <th>Product Name</th>
+                        <th>Product Price</th>
+                        <th>Payment</th>
+                        <th>Order Date</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.NameSurname</td>
+                            <td>@item.Address</td>
+                            @if (item.ProductId != null)
+                            {
+                                <td>@item.Product.Name</td>
+                                <td>@item.Product.Price</td>
+                            }
+                            <td>@item.Payment.Name</td>
+                            <td>@item.CreatedDate.ToShortDateString()</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

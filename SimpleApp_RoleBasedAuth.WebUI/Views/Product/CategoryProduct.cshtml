@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Product List";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <h3>@ViewData["Title"]</h3>
+    <div class="row">
+        <div class="col-md-12">
+            <a asp-controller="Product" asp-action="Create" class="btn btn-primary btn-sm">+ Add New</a> | <a asp-controller="Product" asp-action="ProductList" class="btn btn-dark btn-sm">Product List</a>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Product Price</th>
+                        <th>Category</th>
+                        <th>Orders</th>
+                        <th>Pictures</th>
+                        <th>Created At</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Price</td>
+                            <td>@item.Category.Name</td>
+                            <td>@item.Orders.Count()</td>
+                            <td>@item.Pictures.Count()</td>
+                            <td>@item.CreatedDate.ToShortDateString()</td>
+                            <td>
+                                <a asp-controller="Product" asp-action="ProductDetail" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detail</a>
+                                <a asp-controller="Product" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm">Edit</a>
+                                <a asp-controller="Product" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div>
+            @if (ViewBag.Error != null)
+            {
+                <strong>@ViewBag.Error</strong>
+            }
+        </div>
+    </div>
+</div>

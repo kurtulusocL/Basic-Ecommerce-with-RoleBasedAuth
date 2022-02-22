@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp_RoleBasedAuth.Business", "SimpleApp_RoleBasedAuth.Business\SimpleApp_RoleBasedAuth.Business.csproj", "{44130F81-8BD1-4310-ACA0-2E6416CB82C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp_RoleBasedAuth.Core", "SimpleApp_RoleBasedAuth.Core\SimpleApp_RoleBasedAuth.Core.csproj", "{A1A07974-CFAB-4BEA-9239-82B856EE8A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp_RoleBasedAuth.DataAccess", "SimpleApp_RoleBasedAuth.DataAccess\SimpleApp_RoleBasedAuth.DataAccess.csproj", "{CB3381F1-3EF6-43D3-BD65-AF3C46ADC0A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp_RoleBasedAuth.Entities", "SimpleApp_RoleBasedAuth.Entities\SimpleApp_RoleBasedAuth.Entities.csproj", "{20815CFC-9765-4196-8F95-0C5D181647A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp_RoleBasedAuth.WebUI", "SimpleApp_RoleBasedAuth.WebUI\SimpleApp_RoleBasedAuth.WebUI.csproj", "{A1E66B3A-5060-4B55-9E32-2E13991756DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44130F81-8BD1-4310-ACA0-2E6416CB82C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44130F81-8BD1-4310-ACA0-2E6416CB82C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44130F81-8BD1-4310-ACA0-2E6416CB82C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44130F81-8BD1-4310-ACA0-2E6416CB82C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A07974-CFAB-4BEA-9239-82B856EE8A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A07974-CFAB-4BEA-9239-82B856EE8A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A07974-CFAB-4BEA-9239-82B856EE8A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A07974-CFAB-4BEA-9239-82B856EE8A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3381F1-3EF6-43D3-BD65-AF3C46ADC0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3381F1-3EF6-43D3-BD65-AF3C46ADC0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3381F1-3EF6-43D3-BD65-AF3C46ADC0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3381F1-3EF6-43D3-BD65-AF3C46ADC0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20815CFC-9765-4196-8F95-0C5D181647A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20815CFC-9765-4196-8F95-0C5D181647A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20815CFC-9765-4196-8F95-0C5D181647A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20815CFC-9765-4196-8F95-0C5D181647A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E66B3A-5060-4B55-9E32-2E13991756DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E66B3A-5060-4B55-9E32-2E13991756DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E66B3A-5060-4B55-9E32-2E13991756DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E66B3A-5060-4B55-9E32-2E13991756DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C72CAE24-97C3-4F4A-A87F-6E667A3DC7B4}
+	EndGlobalSection
+EndGlobal

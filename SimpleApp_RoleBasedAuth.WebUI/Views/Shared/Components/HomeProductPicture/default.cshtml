@@ -1,0 +1,12 @@
+﻿@model Picture
+@{
+    Layout = null;
+}
+
+@if (Model != null)
+{
+    if (Model.ProductId != null)
+    {
+        <img src="~/img/product/@Model.ImageUrl" class="img-responsive" style="max-height:90px;max-width:90px;min-height:90px;min-width:90px" />
+    }
+}

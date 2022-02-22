@@ -1,0 +1,17 @@
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\bin\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.deps.json
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\bin\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.dll
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\bin\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.pdb
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\obj\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\obj\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.AssemblyInfoInputs.cache
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\obj\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.AssemblyInfo.cs
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\obj\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.csproj.CoreCompileInputs.cache
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\obj\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.dll
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\obj\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.pdb
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\obj\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.csproj.AssemblyReference.cache
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\bin\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Core.dll
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\bin\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.DataAccess.dll
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\bin\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Entities.dll
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\bin\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Core.pdb
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\bin\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.DataAccess.pdb
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\bin\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Entities.pdb
+C:\Users\kurtulusocL\Desktop\SimpleApp_RoleBasedAuth\SimpleApp_RoleBasedAuth.Business\obj\Debug\netcoreapp3.1\SimpleApp_RoleBasedAuth.Business.csproj.CopyComplete
